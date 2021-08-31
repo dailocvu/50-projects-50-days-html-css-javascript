@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex; /*dàn ảnh ngang*/
+  width: 90vw;
+}
+
+.panel {
+  background-size: auto 100%; /*width - height*/
+  background-position: center;
+  background-repeat: none;
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative; /*for edit text (h3) inside image (absolute)*/
+  transition: flex 0.7s ease-in; /*name - duration - effect*/
+}
+
+.panel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 5; /*expand card from 0.5 to 5*/
+}
+
+.panel.active h3 {
+  opacity: 1;
+  font-weight: 300;
+  transition: opacity 0.3s ease-in 0.4s; /*name - duration - effect - delay*/
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100vw; /*tăng kích thước container*/
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none; /*bỏ 2 card cuối*/
+  }
+}
