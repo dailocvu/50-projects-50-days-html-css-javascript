@@ -8,5 +8,5 @@ A collection of my mini-projects from Brad Traversy's Udemy Course: 50 Projects 
 | 2   | Progress Steps       | [Live Demo](https://kryonics.me/50-projects-50-days-html-css-javascript/progress-steps/)       |
 | 3   | Rotating Navigation  | [Live Demo](https://kryonics.me/50-projects-50-days-html-css-javascript/rotating-navigation/)  |
 | 4   | Hidden Search Widget | [Live Demo](https://kryonics.me/50-projects-50-days-html-css-javascript/hidden-search-widget/) |
-| 4   | Blurring Loading | [Live Demo](https://kryonics.me/50-projects-50-days-html-css-javascript/blurry-loading/) |
-
+| 5   | Blurring Loading     | [Live Demo](https://kryonics.me/50-projects-50-days-html-css-javascript/blurry-loading/)       |
+| 6   | Scroll Animation     | [Live Demo](https://kryonics.me/50-projects-50-days-html-css-javascript/scroll-animation/)     |
